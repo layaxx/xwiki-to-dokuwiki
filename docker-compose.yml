@@ -1,0 +1,41 @@
+version: "3.7"
+
+volumes:
+  mysql_data:
+  xwiki_data:
+
+services:
+  xwiki_web:
+    image: registry.feki.de/server/docker-images/xwiki:2.3.1.1
+    environment:
+      - DB_USER=xwiki
+      - DB_PASSWORD=password
+      - DB_DATABASE=xwiki
+      - DB_HOST=db
+      - CONTEXT_PATH=xwiki
+      - JAVA_OPTS=-Xmx6048m
+    volumes:
+      - xwiki_data:/usr/local/xwiki
+    ports:
+      - "8080:8080"
+
+  db:
+    image: "mysql:5.7"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    command:
+      [
+        "--default-authentication-plugin=mysql_native_password",
+        "--max_allowed_packet=500M",
+      ]
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_USER=xwiki
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=xwiki
+  db-admin:
+    image: adminer
+    depends_on:
+      - db
+    ports:
+      - "8081:8080"

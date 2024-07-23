@@ -1,0 +1,178 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "import { readFileSync } from \"fs\";\n\nconst tree = JSON.parse(readFileSync(\"tree.json\"))\nconst completelyResolved = []\nlet unresolved = tree\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "\nlet stillUnresolved = []\n\nlet whCount = 0\nlet otherCount = 0\n\nfor(const child of unresolved){\n    let debug = false\n    if(child.name == \"anleitung_gosa_eigene_daten_aendern\") debug = true\n    if(!child.parent){\n        if (debug) console.log(\"no parent\", child.name)\n        if(!child.path) child.path = []\n        completelyResolved.push(child)\n    }\n    else{\n        const [parentToResolve, ...rest] = child.parent.split(\".\").reverse()\n     \n        if(debug) console.log(\"parent to resolve\", parentToResolve, \"new parent\", child.parent)\n       \n       \n       \n        let parent \n        \n        if(parentToResolve === \"WebHome\"){\n           parent = completelyResolved.find(c => c.name === parentToResolve && c.web === child.web)\n            whCount++\n        }\n        else {\n            parent = completelyResolved.find(c => c.name === parentToResolve)\n            otherCount++\n        }\n        if(debug) console.log(\"parent\", parent)\n        if(!parent){\n            stillUnresolved.push(child)\n            continue\n        }\n\n        child.path = [...parent.path, parent.name === \"WebHome\"? parent.web:  parent.name]\n        if(debug) console.log(\"path\", child.path)\n        completelyResolved.push(child)\n    }\n}\n\nunresolved = stillUnresolved\n\nconsole.log(stillUnresolved.length, completelyResolved.length)\nconsole.log(\"wh\", whCount, \"other\", otherCount)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "parent to resolve Anleitungen new parent Main.Anleitungen",
+                                "parent undefined",
+                                "4492 396",
+                                "wh 68 other 4424",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "completelyResolved.map(x => ({...x, path:x.path.join(\",\")})).filter(x => x.path == \"\").map(x => x.name)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[32m'CopyDocument'\u001b[39m,",
+                                "  \u001b[32m'Stats'\u001b[39m,",
+                                "  \u001b[32m'WebPreferences'\u001b[39m,",
+                                "  \u001b[32m'archiv_sitzungsprotokolle_it'\u001b[39m,",
+                                "  \u001b[32m'archiv_sitzungsprotokolle_it'\u001b[39m,",
+                                "  \u001b[32m'rsnapshot'\u001b[39m,",
+                                "  \u001b[32m'CreateBlogPost'\u001b[39m,",
+                                "  \u001b[32m'Lauftreff-c72dff00-cc545b00'\u001b[39m,",
+                                "  \u001b[32m'MVV-f470700-146d6300'\u001b[39m,",
+                                "  \u001b[32m'MyAgenda'\u001b[39m,",
+                                "  \u001b[32m'Testevent-b85fb680-b896a500'\u001b[39m,",
+                                "  \u001b[32m'VortragVerkehrsmittelVergleichde-3879e700-3da04300'\u001b[39m,",
+                                "  \u001b[32m'WebHome'\u001b[39m,",
+                                "  \u001b[32m'WebPreferences'\u001b[39m,",
+                                "  \u001b[32m'Video'\u001b[39m,",
+                                "  \u001b[32m'Bueroschluessel'\u001b[39m,",
+                                "  \u001b[32m'Deko'\u001b[39m,",
+                                "  \u001b[32m'Entwurf Einladung'\u001b[39m,",
+                                "  \u001b[32m'Fragen_Externe_Befragung_SoSe14'\u001b[39m,",
+                                "  \u001b[32m'Merkblatt fÃ¼r Onlinesteller'\u001b[39m,",
+                                "  \u001b[32m'Onlinestellen auf der neuen Seite'\u001b[39m,",
+                                "  \u001b[32m'Projekt_Nachtbib'\u001b[39m,",
+                                "  \u001b[32m'Projekt_Sprachkurs'\u001b[39m,",
+                                "  \u001b[32m'ProjekteTmp'\u001b[39m,",
+                                "  \u001b[32m'ProjekteTmp2'\u001b[39m,",
+                                "  \u001b[32m'Ressort_Test'\u001b[39m,",
+                                "  \u001b[32m'Ressorttreffen am 04.07.2011'\u001b[39m,",
+                                "  \u001b[32m'Ressorttreffen am 04.07.2011'\u001b[39m,",
+                                "  \u001b[32m'Standardisierte_Prozesse_bei_Vereinseintritt_und_Austritt'\u001b[39m,",
+                                "  \u001b[32m'Test'\u001b[39m,",
+                                "  \u001b[32m'Vortrag Merkel & Koehler'\u001b[39m,",
+                                "  \u001b[32m'WebHome'\u001b[39m,",
+                                "  \u001b[32m'WebPreferences'\u001b[39m,",
+                                "  \u001b[32m'archiv_ressortberichte_it'\u001b[39m,",
+                                "  \u001b[32m'archiv_sitzungsprotokolle_it'\u001b[39m,",
+                                "  \u001b[32m'archiv_taetigkeitsberichte_it'\u001b[39m,",
+                                "  \u001b[32m'athene_nachfolger'\u001b[39m,",
+                                "  \u001b[32m'athene_nachfolger'\u001b[39m,",
+                                "  \u001b[32m'auswertung_mailand15'\u001b[39m,",
+                                "  \u001b[32m'budgetplan'\u001b[39m,",
+                                "  \u001b[32m'christiane_landmann'\u001b[39m,",
+                                "  \u001b[32m'daniel_kleber'\u001b[39m,",
+                                "  \u001b[32m'erstsemesterparty_ws1314'\u001b[39m,",
+                                "  \u001b[32m'events_intern_au_drittes_treffen'\u001b[39m,",
+                                "  \u001b[32m'events_intern_cc_ws14'\u001b[39m,",
+                                "  \u001b[32m'events_intern_vorlagenemails'\u001b[39m,",
+                                "  \u001b[32m'fototeam_archiv_ss13'\u001b[39m,",
+                                "  \u001b[32m'futuredays_WS06'\u001b[39m,",
+                                "  \u001b[32m'gemeinsame_vss_14122013_anna_gruhle'\u001b[39m,",
+                                "  \u001b[32m'hsg_protokoll_30112014'\u001b[39m,",
+                                "  \u001b[32m'hsng_protokoll_17072016'\u001b[39m,",
+                                "  \u001b[32m'jessica_obert'\u001b[39m,",
+                                "  \u001b[32m'jonas_moersdorf'\u001b[39m,",
+                                "  \u001b[32m'konzept_landesgartenschau'\u001b[39m,",
+                                "  \u001b[32m'lara_ehemann'\u001b[39m,",
+                                "  \u001b[32m'lara_ehemann'\u001b[39m,",
+                                "  \u001b[32m'leon_stepputtis'\u001b[39m,",
+                                "  \u001b[32m'liste_auto'\u001b[39m,",
+                                "  \u001b[32m'neueseite_rubriken_bilder'\u001b[39m,",
+                                "  \u001b[32m'neueseite_studiumsbereich_alt'\u001b[39m,",
+                                "  \u001b[32m'ottfried_protokoll_11072016'\u001b[39m,",
+                                "  \u001b[32m'partycipate_in_der_au_SS14'\u001b[39m,",
+                                "  \u001b[32m'partycipate_inderau_ss14'\u001b[39m,",
+                                "  \u001b[32m'partycipate_semester_warmup_ws1617'\u001b[39m,",
+                                "  \u001b[32m'privat_erster_vorsitzender_urheberrechtsverletzung_mlp_gi'\u001b[39m,",
+                                "  \u001b[32m'privat_finanzen_bewirtungskostenÃ¼bernahme'\u001b[39m,",
+                                "  \u001b[32m'privat_finanzen_mitgliedsbeitrÃ¤ge'\u001b[39m,",
+                                "  \u001b[32m'privat_layout_neueseitelayout'\u001b[39m,",
+                                "  \u001b[32m'privat_layout_nichtÃ¶ffentliche_Dateien'\u001b[39m,",
+                                "  \u001b[32m'privat_vorsitzender_mvv02022010'\u001b[39m,",
+                                "  \u001b[32m'privat_vorsitzender_mvv07062010'\u001b[39m,",
+                                "  \u001b[32m'privat_vorsitzender_mvv15012014'\u001b[39m,",
+                                "  \u001b[32m'privat_vorsitzender_mvv23062014'\u001b[39m,",
+                                "  \u001b[32m'privat_vorsitzender_mvv24062015'\u001b[39m,",
+                                "  \u001b[32m'projekt_lan'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_12052012'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_12052014'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_13052012'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_16062011'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_20052015'\u001b[39m,",
+                                "  \u001b[32m'projekt_protokoll_events_20052015'\u001b[39m,",
+                                "  \u001b[32m'projektideenpool_erstsemestereinführung'\u001b[39m,",
+                                "  \u001b[32m'protokoll_1404'\u001b[39m,",
+                                "  \u001b[32m'protokoll_1410'\u001b[39m,",
+                                "  \u001b[32m'protokoll_2110'\u001b[39m,",
+                                "  \u001b[32m'protokoll_eventteam_20042015'\u001b[39m,",
+                                "  \u001b[32m'protokoll_eventteam_20042015'\u001b[39m,",
+                                "  \u001b[32m'protokoll_ressorttreffen_it_16-05-2010'\u001b[39m,",
+                                "  \u001b[32m'protokoll_ressorttreffen_it_16-05-2010'\u001b[39m,",
+                                "  \u001b[32m'protokoll_teamtreffen_11052015'\u001b[39m,",
+                                "  \u001b[32m'protokoll_treffen_it_vorstand_14-11-2013'\u001b[39m,",
+                                "  \u001b[32m'protokoll_treffen_mit_ahoernla_fruchtbar_20052015'\u001b[39m,",
+                                "  \u001b[32m'protokoll_treffen_mit_manoma_21052015'\u001b[39m,",
+                                "  \u001b[32m'redaktion_anleitung_fuer_youtube_einbinden_neue_seite'\u001b[39m,",
+                                "  \u001b[32m'redaktionssitzung_090423'\u001b[39m,",
+                                "  \u001b[32m'redaktionssitzung_101201'\u001b[39m,",
+                                "  \u001b[32m'redaktionssitzung_101217'\u001b[39m,",
+                                "  \u001b[32m'redaktionstreffen_13_12_2016'\u001b[39m,",
+                                "  \u001b[32m'ressorberticht_sponsoring_jan-apr2012'\u001b[39m,",
+                                "  \u001b[32m'ressort_marketing_protokoll040711'\u001b[39m,",
+                                "  ... 266 more items",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "tree.filter(x => x.name == \"Mitgliedsaufnahmen\")"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        }
+    ]
+}

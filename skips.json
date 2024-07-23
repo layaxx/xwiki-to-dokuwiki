@@ -1,0 +1,1318 @@
+[
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Admin/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Admin/archiv_sitzungsprotokolle_it.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Admin/rsnapshot.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/ArchivePanel.xml",
+    "reason": "No attachment and too little content ({{include document=\"Panels.PanelSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogIntroduction.xml",
+    "reason": "No attachment and too little content ({{include document='Blog.BlogPostSheet'/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogPostClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogPostTemplate.xml",
+    "reason": "No attachment and too little content ({{include document=\"Blog.BlogPostSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogScripts.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogStyle.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/BlogTemplate.xml",
+    "reason": "No attachment and too little content ({{include document=\"Blog.BlogSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/CategoriesPanel.xml",
+    "reason": "No attachment and too little content ({{include document=\"Panels.PanelSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/CategoryClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/CategoryTemplate.xml",
+    "reason": "No attachment and too little content ({{include document=\"CategorySheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/News.xml",
+    "reason": "No attachment and too little content ({{include document=\"CategorySheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/Other.xml",
+    "reason": "No attachment and too little content ({{include document=\"CategorySheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/Personal.xml",
+    "reason": "No attachment and too little content ({{include document=\"CategorySheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/RecentPostsPanel.xml",
+    "reason": "No attachment and too little content ({{include document=\"Panels.PanelSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/UnpublishedPanel.xml",
+    "reason": "No attachment and too little content ({{include document=\"Panels.PanelSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/WebHome.xml",
+    "reason": "No attachment and too little content ({{include document=\"Blog.BlogSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/WebPreferences.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.AdminSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Blog/WikiLaunch.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.ArticleClassSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/Lauftreff-c72dff00-cc545b00.xml",
+    "reason": "No attachment and too little content (#includeForm('XWiki.XCalendarEventSheet'))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/MVV-f470700-146d6300.xml",
+    "reason": "No attachment and too little content (#includeForm('XWiki.XCalendarEventSheet'))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/MyAgenda.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/Testevent-b85fb680-b896a500.xml",
+    "reason": "No attachment and too little content (#includeForm('XWiki.XCalendarEventSheet'))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/VortragVerkehrsmittelVergleichde-3879e700-3da04300.xml",
+    "reason": "No attachment and too little content (#includeForm('XWiki.XCalendarEventSheet'))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Calendar/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Artikelmerkblatt.xml",
+    "reason": "No attachment and too little content (gelöscht)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Bueroschluessel.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Entdecke_Bamberg_ss16.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/EventCalendar.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.CalendarSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Merkblatt fÃ¼r Onlinesteller.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Merkblatt für Onlinesteller.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Mitgliedervollversammlungsprotokolle.xml",
+    "reason": "Page was recently updated (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Mitgliedsaufnahme.xml",
+    "reason": "No attachment and too little content (Hier kannst du deinen Text schreiben)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Onlinestellen auf der neuen Seite.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Rechtliche Grundlagen.xml",
+    "reason": "No attachment and too little content (gelöscht)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Ressort_Test.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Ressorttreffen am 04.07.2011.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Semesterwandkalender.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Standardisierte_Prozesse_bei_Vereinseintritt_und_Austritt.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Verlinkungen.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Vorstandssitzung30042009.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.ArticleClassSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Vortrag Merkel & Koehler.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/anna_schmelzer.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/archiv_ressortberichte_it.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/archiv_sitzungsprotokolle_it.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/athene_nachfolger.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/christiane_landmann.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/delete.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/drupal_modul_tippspiel.xml",
+    "reason": "No attachment and too little content (= Anforderungen =\n\n* Phillipp fragen)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/eine neue Seite.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/einkaufen_teamwe_ss10.xml",
+    "reason": "No attachment and too little content (Übernimmt Michael Brod)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/erstsemesterparty_ws1314.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/events_intern_cc_ws14.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/events_intern_erstipartyWS12.xml",
+    "reason": "No attachment and too little content (as)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/events_testws11.xml",
+    "reason": "No attachment and too little content (test)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/futuredays_WS06.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/hallo_jonas.xml",
+    "reason": "No attachment and too little content (Hallo)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/intern_userinfos.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/juergen_poehnl.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/julianestestseite.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/konzept_kummerkasten_2015.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/lara_ehemann.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/linda_spielmann.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/merkblatt_uni_guide.xml",
+    "reason": "No attachment and too little content (gelöscht)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/neueseite_modul_tipspiel.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ottfried_protokoll_11072016.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/planung_protokoll.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_erster_vorsitzender_vorgehen_entlastung.xml",
+    "reason": "Page was recently updated (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_erster_vorsitzender_vorgehen_mvv.xml",
+    "reason": "Page was recently updated (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_erster_vorsitzender_vorgehen_referenzschreiben.xml",
+    "reason": "Page was recently updated (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_finanzen_bewirtungskostenÃ¼bernahme.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_finanzen_mitgliedsbeitrÃ¤ge.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_layout_nichtÃ¶ffentliche_Dateien.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/privat_vorsitzender_notar.xml",
+    "reason": "Page was recently updated (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/projekt_futuredays_ss08_journalismus080715.xml",
+    "reason": "No attachment and too little content (journalismus ist doof)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/projekt_protokoll_events_12052012.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/projekt_protokoll_events_20052015.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/projekt_stellw%E4nde.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/protokoll_081107.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/protokoll_eventteam_20042015.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/protokoll_ressorttreffen_it_16-05-2010.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/psad.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/regina_kandler.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressorberticht_sponsoring_jan-apr2012.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressort_internes_uebertritt_netzwerk_ev_aktuelle.xml",
+    "reason": "No attachment and too little content (Liste verschoben)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressort_layout_designteam_cd_anleitungen_online_standard_praesentation.xml",
+    "reason": "No attachment and too little content (Headerbild: 1900*370px)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressort_marketing_protokoll040711.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressort_marketing_stellwÃ¤nde.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressortbericht_it_dez2010-feb2011.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressortbericht_mitglieder_und_internes_apr-jun2013.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/ressortbericht_sponsoring_dez2010-feb2011.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/rsnapshot.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/schichten_au12_flyern.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/schichten_au_ss12.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/social_media_studentenwerk_treffen_24_10_12.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/syntax_test.en.xml",
+    "reason": "No attachment and too little content (~= Überschrift =)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/syntax_test.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/syntax_test2.en.xml",
+    "reason": "No attachment and too little content ([[[Link]]])"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/syntax_test2.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/team-event_ws15-16.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/teamwe_ss12_einkaufsliste.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/teamwe_ws11_e-mail-leitfaden.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/teresa_fuchs.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/unishop_projekttreffen_27072013.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/unishop_stofftaschen_usbsticks.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/universitaet_protokoll_23102013.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/vorstand_intern_internes_temp.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/vss18122013_anna_gruhle_neu.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/wikiworkshop.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main/Ã¼bergabe_sponsoring_2012.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.Main/Vorlage_Mitgliedsumstritt_Netzwerk.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.Main/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.Main/ressort_redaktion_ideenpool.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.Main/ressort_redaktion_specialoperation.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.UniShopRaum-Treffen 06.04/WebHome.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Main.protokoll_ressorttreffen_it_24.04/2008.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Protokoll vom 03.05/2010.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/Protokoll vom 19.01/2010.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/@ndy.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/AggregatorURLClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/ArticleClassTemplate.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.ArticleClassSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/BerkBayraktar.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/BernhardVon-Rotenhan.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/CalendarEvent.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/FeedEntryClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/FraukeFromm.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/JavaScriptExtension.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/LDAPProfileClass.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Mail.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/MarikaGloeckner.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Memo-MuhammedYapici.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Mianguyen.xml",
+    "reason": "User page is too new (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/MoZ.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/ObjectTemplate.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.MySheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/PhotoAlbumClassTemplate.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.PhotoAlbumClassSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Raiko.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Rebecca_Roth.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/ResetPasswordMailContent.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/ResetPasswordRequestClass.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/SchedulerJobClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Schlomp.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/StyleSheetExtension.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/TagClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/TroyMcClure.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WatchListClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WatchListJobClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WebDAV.xml",
+    "reason": "No attachment and too little content (#info($msg.get('xe.webdav.info')))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WikiMacroClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/WikiMacroParameterClass.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XAgenda.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarEvent.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarEventCategory.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarEventCategorys.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarEventTemplate.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XCalendarEventSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarTimeScale.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarTimeScales.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarView.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XCalendarViews.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiAdminGroup.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiAllGroup.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiComments.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiGlobalRights.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiGroupTemplate.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiLogin.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiRights.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiSkins.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.ClassSheet\" /}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/XWikiUserTemplate.xml",
+    "reason": "No attachment and too little content ({{include document=\"XWiki.XWikiUserSheet\"/}})"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/Yoghurt2k.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/adnanrazzaq.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/adrianemeissner.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/andibe.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/andreacarolina.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/andreagraumann.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/andreas-bw.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/anima.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/annahench.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/annamarias.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/annepiotrowski.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/antoniarueth.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/arcane.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/bello.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/benediktguenther.xml",
+    "reason": "User page is too new (2023)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/benjaminkoller.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/berkeyelmen.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/biene20.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/björn.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/carof.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/chanie.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/chickenvane.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/chris.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/clka18.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/coyote.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/danive.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/demirsar.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/dersisa.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/dianakirchmayer.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/dorop.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/drfreud.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/estherkleinhenz.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/evas.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/eventteam.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/faaiky.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/felixhaase.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/fisper.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/flippus.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/flixi.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/flocke86.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/forevernomad.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/franzi884.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/frederikwilkens.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/fridasetzwein.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/garcia1985.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/hebi.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/inejo.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/inken.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/interessenten.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/isabellahebel.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/janabauer.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/janamüller.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jasminwahl.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jassex3.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jess.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jochen.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/joerg.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/joergw.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jomaxy.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/jons.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/julia-be.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliaa.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliah.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliaibwl.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliane1488.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliareddig.xml",
+    "reason": "User page is too new (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/juliawinter.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kaddn1986.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/katalin.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kathl*.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kathl<.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kingflo.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kristina.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/krümel92.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/kumararoon.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/köört.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/lara_eh.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/larshoffmann.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/lena-sophiehoffmann-winter.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/leoniem.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/lewe.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/lionbaby821.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/louis-benedictboehme.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/luii.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/lukas.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/maggi_26.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/mailfresser.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/malaika2004.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/manfred.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/martinaworyna.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/mattipoeppel.xml",
+    "reason": "User page is too new (2023)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/maybebaby.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/me@home.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/memoyapici.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/mia-saramalmgroen.xml",
+    "reason": "User page is too new (2022)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/michi#5.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/miroklose.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/moerschi.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/nartibinakaj.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/nataliefischer.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/natalieipünktchen.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/natalies.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/netzwerkev.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/netzwerkevvorstand.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/nikonannemann.xml",
+    "reason": "User page is too new (2021)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/olivermahr.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/orkunkuru.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/papeta-a.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/pendel.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/philott.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/punani227.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/päddrig.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/quirinbortenschlager.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/ralfi.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/rinderteufel.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/rinni-ran.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sabinepoe.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sandrakoch.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/schleicher.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/schrottirabotti.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sebastianriemer.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sebastiansthamer.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sebastianwindfelder.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sefakeles.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/shirleyaulbach92.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/simonh.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sinas.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/snookerkek.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sonicon.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sophiedaehn.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/stefaniekropac.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/svenjawe.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/sören.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/tanjahartl.xml",
+    "reason": "User page is too new (2019)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/teazme89.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/teresaf.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/testdokuwiki.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/th1z.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/theresacavallaro.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/theresar.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/thomas-josephpiwek.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/thuduong.xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/tschomue.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/unishop.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/utsch.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/veget.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/vivienulm .xml",
+    "reason": "User page is too new (2018)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/vorstand.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiGroupSheet\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/wikinger.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/wkgii.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/xndrg.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/yannicklang.xml",
+    "reason": "User page is too new (2020)"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/yassip.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/yogi23.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/XWiki/zed|brave.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.XWikiUserTemplate\"))"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/projekt_Mit Feki.de nach../ Rom.xml",
+    "reason": "No attachment and too little content ()"
+  },
+  {
+    "path": "/home/layaxx/Documents/programming/feki/wiki/xwiki/backup/redaktionssitzung_101103/WebPreferences.xml",
+    "reason": "No attachment and too little content (#includeForm(\"XWiki.AdminSheet\"))"
+  }
+]
