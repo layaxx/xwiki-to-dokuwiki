@@ -1,17 +1,31 @@
-import { existsSync, mkdirSync, writeFileSync } from "fs"
-import { TreeData } from "."
-import { dirname } from "path"
-import { Data } from "./types"
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  statSync,
+  writeFileSync,
+} from "fs"
+import path, { dirname } from "path"
+import type { Data, TreeData } from "./types"
+import { XMLParser } from "fast-xml-parser"
+
+const parser = new XMLParser()
 
 export function getNewPath(data: Data, resolvedTree: TreeData): string {
   let relPath =
-    (resolvedTree
-      .find((c) => c.name === data.name && c.web === data.web)
-      ?.path.join("/") ?? "") +
+    (
+      resolvedTree
+        .find((c) => c.name === data.name && c.web === data.web)
+        ?.path.join("/") ?? ""
+    ).replace(/_/g, "/") +
     "/" +
     data.name
 
-  relPath = relPath.toLowerCase().replace(/ /g, "_")
+  relPath = relPath
+    .toLowerCase()
+    .replace(/ /g, "_")
+    .replace(/xwiki\/xwikiusers/, "users")
 
   let path = `./out/${relPath}.txt`
 
@@ -45,4 +59,38 @@ export function addTopLevelHeading(
     return `= ${content} =\n`
   }
   return `1 ${content}`
+}
+
+export function getCreationYear(obj: { xwikidoc: Data }): number {
+  return new Date(obj.xwikidoc.creationDate).getFullYear()
+}
+
+export function getUpdateYear(obj: { xwikidoc: Data }): number {
+  return new Date(obj.xwikidoc.contentUpdateDate).getFullYear()
+}
+
+export function timestamp() {
+  const date = new Date()
+  return `[${date.getHours().toString().padStart(2, "0")}:${date
+    .getMinutes()
+    .toString()
+    .padStart(2, "0")}:${date.getSeconds().toString().padStart(2, "0")}]`
+}
+
+export async function getFiles(dir: string): Promise<string[]> {
+  const subdirectories = readdirSync(dir)
+  const files = await Promise.all(
+    subdirectories.map(async (subdirectory) => {
+      const res = path.resolve(dir, subdirectory)
+      return statSync(res).isDirectory() ? getFiles(res) : res
+    })
+  )
+
+  return files.reduce((a: string[], f) => a.concat(f), [])
+}
+
+export function readFromPath(path: string): { xwikidoc: Data; path: string } {
+  const XMLdata = readFileSync(path, "utf8")
+
+  return { path, ...parser.parse(XMLdata) }
 }

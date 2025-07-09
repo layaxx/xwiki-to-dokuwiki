@@ -60,11 +60,36 @@ export function transformContentPage(
     web: string
     path: string[]
   }>
-) {
+): { skip: true; reason: string } | { skip: false } {
   const data = obj.xwikidoc
   const syntax = data.syntaxId === "xwiki/1.0" ? "xwiki/1.0" : "xwiki/2.0"
 
   let path = getNewPath(data, resolvedTree)
+
+  const lowerCasePath = path.toLowerCase()
+  if (lowerCasePath.includes("class")) {
+    return { skip: true, reason: "This is a class page" }
+  }
+
+  if (lowerCasePath.includes("template")) {
+    return { skip: true, reason: "This is a template page" }
+  }
+
+  if (lowerCasePath.includes("preferences")) {
+    return { skip: true, reason: "This is a preferences page" }
+  }
+
+  if (lowerCasePath.includes("webhome")) {
+    return { skip: true, reason: "This is a webhome page" }
+  }
+
+  if (lowerCasePath.includes("/xwiki/")) {
+    return { skip: true, reason: "This is a XWiki page" }
+  }
+
+  if (lowerCasePath.includes("sheet")) {
+    return { skip: true, reason: "This is a sheet page" }
+  }
 
   let contentPage = data.title ? addTopLevelHeading(data.title, syntax) : ""
   contentPage += parseContent(data, path)
@@ -81,4 +106,7 @@ export function transformContentPage(
   }
 
   fs.writeFileSync(path, contentPage)
+  return {
+    skip: false,
+  }
 }

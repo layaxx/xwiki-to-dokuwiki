@@ -40,3 +40,11 @@ export type Data = {
   content: string
   attachment?: Attachment | Attachment[]
 }
+
+export type TreeData = Array<{
+  title: string
+  name: string
+  parent: string
+  web: string
+  path: string[]
+}>

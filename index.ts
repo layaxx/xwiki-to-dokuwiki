@@ -3,34 +3,15 @@ import fs, { readFileSync, writeFileSync } from "fs"
 import path from "path"
 import { isUserPage, transformUserPage } from "./userpage"
 import { transformContentPage } from "./contentpage"
-import type { Data } from "./types"
-
-async function getFiles(dir: string): Promise<string[]> {
-  const subdirectories = fs.readdirSync(dir)
-  const files = await Promise.all(
-    subdirectories.map(async (subdirectory) => {
-      const res = path.resolve(dir, subdirectory)
-      return fs.statSync(res).isDirectory() ? getFiles(res) : res
-    })
-  )
-
-  return files.reduce((a: string[], f) => a.concat(f), [])
-}
-
-function readFromPath(path: string): { xwikidoc: Data; path: string } {
-  const XMLdata = fs.readFileSync(path, "utf8")
-
-  const parser = new XMLParser()
-  return { path, ...parser.parse(XMLdata) }
-}
-
-function getCreationYear(obj: { xwikidoc: Data }): number {
-  return new Date(obj.xwikidoc.creationDate).getFullYear()
-}
-
-function getUpdateYear(obj: { xwikidoc: Data }): number {
-  return new Date(obj.xwikidoc.contentUpdateDate).getFullYear()
-}
+import type { Data, TreeData } from "./types"
+import {
+  getUpdateYear,
+  getCreationYear,
+  timestamp,
+  getFiles,
+  readFromPath,
+} from "./util"
+import { calculateTree } from "./utils/tree"
 
 function handleObject(
   obj: { xwikidoc: Data; path: string },
@@ -53,7 +34,13 @@ function handleObject(
   if (obj.xwikidoc.content.length > 45 || obj.xwikidoc.attachment) {
     if (getCreationYear(obj) <= 2017) {
       if (getUpdateYear(obj) <= 2017) {
-        return transformContentPage(obj, resolvedTree)
+        const result = transformContentPage(obj, resolvedTree)
+
+        if (result.skip) {
+          skips.push({ path: obj.path, reason: result.reason })
+        }
+
+        return
       } else {
         skips.push({
           path: obj.path,
@@ -73,72 +60,6 @@ function handleObject(
     })
   }
 }
-
-function timestamp() {
-  const date = new Date()
-  return `[${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}]`
-}
-
-function calculateTree(unresolved: TreeData): TreeData {
-  const completelyResolved: TreeData = []
-
-  for (let i = 0; i < 15; i++) {
-    let stillUnresolved: TreeData = []
-
-    let whCount = 0
-    let otherCount = 0
-
-    for (const child of unresolved) {
-      if (!child.parent) {
-        if (!child.path) child.path = []
-        completelyResolved.push(child)
-      } else {
-        const parentToResolve = child.parent.split(".").at(-1)
-
-        let parent: TreeData[0] | undefined
-
-        if (parentToResolve === "WebHome") {
-          parent = completelyResolved.find(
-            (c) => c.name === parentToResolve && c.web === child.web
-          )
-          whCount++
-        } else {
-          parent = completelyResolved.find((c) => c.name === parentToResolve)
-          otherCount++
-        }
-
-        if (!parent) {
-          stillUnresolved.push(child)
-          continue
-        }
-
-        child.path = [
-          ...parent.path,
-          parent.name === "WebHome" ? parent.web : parent.name,
-        ]
-
-        completelyResolved.push(child)
-      }
-    }
-
-    unresolved = stillUnresolved
-  }
-
-  return completelyResolved.concat(
-    unresolved.map((entry) => ({
-      ...entry,
-      path: [entry.parent.split(".").pop() ?? "unresolved"],
-    }))
-  )
-}
-
-export type TreeData = Array<{
-  title: string
-  name: string
-  parent: string
-  web: string
-  path: string[]
-}>
 
 const skips: Array<{ path: string; reason: string }> = []
 
@@ -193,7 +114,7 @@ function main() {
       writeFileSync("resolvedTree.json", JSON.stringify(resolvedTree))
 
       allPages.filter(Boolean).map((object, idx, array) => {
-        if (!(idx % 100))
+        if (idx % 100 === 0)
           console.log(timestamp(), "Parsing", idx, "of", array.length)
         handleObject(object!, resolvedTree!)
       })
