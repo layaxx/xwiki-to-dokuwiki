@@ -1,13 +1,12 @@
 import fs from "fs"
-import { dirname } from "path"
 import { getNewPath } from "./util"
+import { Data } from "./types"
 
 export function isUserPage(object: { xwikidoc: Data }) {
   return (
     !!object.xwikidoc &&
-    object.xwikidoc.content.includes(
-      "XWikiUserSheet" || object.xwikidoc.content.includes("XWikiUserTemplate")
-    ) &&
+    (object.xwikidoc.content.includes("XWikiUserSheet") ||
+      object.xwikidoc.content.includes("XWikiUserTemplate")) &&
     Array.isArray(object.xwikidoc.object) &&
     object.xwikidoc.object.some(
       (ob) => ob && ob.class && ob.class.name === "XWiki.XWikiUsers"
@@ -26,7 +25,7 @@ export function transformUserPage(
   }>
 ) {
   const d =
-    obj.xwikidoc.object!.find((ob) => ob?.class?.name === "XWiki.XWikiUsers")
+    obj.xwikidoc.object?.find((ob) => ob?.class?.name === "XWiki.XWikiUsers")
       ?.property ?? []
   const user: Record<string, string | number> = {}
 

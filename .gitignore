@@ -6,3 +6,7 @@ new.txt
 *.out
 backup.xar
 treelog.txt
+logs
+tree.json
+resolvedTree.json
+rendering

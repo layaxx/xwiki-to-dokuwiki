@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs"
 import { TreeData } from "."
 import { dirname } from "path"
+import { Data } from "./types"
 
 export function getNewPath(data: Data, resolvedTree: TreeData): string {
   let relPath =

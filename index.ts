@@ -199,7 +199,7 @@ function main() {
       })
     }
 
-    fs.writeFileSync("./skips.json", JSON.stringify(skips, null, 2))
+    fs.writeFileSync("./logs/skips.json", JSON.stringify(skips, null, 2))
 
     console.log("done")
   })

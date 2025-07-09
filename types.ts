@@ -1,4 +1,4 @@
-type Attachment = {
+export type Attachment = {
   filename: string
   filesize: number
   author: string
@@ -8,7 +8,7 @@ type Attachment = {
   content: string
 }
 
-type Data = {
+export type Data = {
   web: string
   name: string
   language: string

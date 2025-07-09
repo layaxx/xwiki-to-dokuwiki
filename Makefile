@@ -1,6 +1,6 @@
 build:
 	rm -rf ./out/ && \
-	tsx index.ts 2> err.out && \
+	tsx index.ts 2> ./logs/err.out && \
 	rm -rf out_/ && \
 	cp -r out/ out_
 

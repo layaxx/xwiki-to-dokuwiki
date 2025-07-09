@@ -1,6 +1,7 @@
 import fs from "fs"
-import { basename, dirname, join } from "path"
+import { dirname, join } from "path"
 import { addTopLevelHeading, convertLink, getNewPath } from "./util"
+import type { Attachment, Data } from "./types"
 
 function parseContent(data: Data, newLink: string) {
   const syntax = data.syntaxId === "xwiki/1.0" ? "xwiki/1.0" : "xwiki/2.0"
