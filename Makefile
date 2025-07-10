@@ -3,7 +3,7 @@ safety:
 
 process:
 	@echo "Deleting out/"
-	rm -rf ./out/ && mkdir -p out/users && mkdir out/_links && mkdir -p out/_attach/users
+	rm -rf ./out/ && mkdir -p out/users && mkdir out/content && mkdir out/_links && mkdir -p out/_attach/users
 	@echo "Processing XWiki pages..."
 	tsx processing/index.ts 2> ./logs/err.out 
 	rm -rf out_/ 
@@ -24,6 +24,7 @@ copy:
 	sudo rm -rf ../dokuwiki_data/data/pages/xwiki/ && \
 	sudo rm -rf ../dokuwiki_data/data/media/xwiki/ && \
 	sudo mkdir ../dokuwiki_data/data/pages/xwiki && \
-	sudo cp -r out/* ../dokuwiki_data/data/pages/xwiki && \
+	sudo cp -r out/users ../dokuwiki_data/data/pages/xwiki && \
+	sudo cp -r out/content ../dokuwiki_data/data/pages/xwiki && \
 	sudo cp -r out/_attach/ ../dokuwiki_data/data/media/xwiki && \
 	sudo chown -R 1001 ../dokuwiki_data/data/pages/xwiki 
