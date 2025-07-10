@@ -9,6 +9,7 @@ import {
 import path, { dirname } from "path"
 import type { Data, TreeData } from "./types"
 import { XMLParser } from "fast-xml-parser"
+import { XWikiPage } from "./generated/prisma"
 
 const parser = new XMLParser()
 
@@ -58,7 +59,7 @@ export function addTopLevelHeading(
   if (syntax === "xwiki/2.0") {
     return `= ${content} =\n`
   }
-  return `1 ${content}`
+  return `1 ${content}\n`
 }
 
 export function getCreationYear(obj: { xwikidoc: Data }): number {
@@ -93,4 +94,29 @@ export function readFromPath(path: string): { xwikidoc: Data; path: string } {
   const XMLdata = readFileSync(path, "utf8")
 
   return { path, ...parser.parse(XMLdata) }
+}
+
+export function isUserPageDB(
+  object: Pick<XWikiPage, "content" | "object" | "parent">
+): boolean {
+  if (object && object.parent === "Main.Mitglieder") {
+    return true
+  }
+  return (
+    !!object &&
+    (object.content.includes("XWikiUserSheet") ||
+      object.content.includes("XWikiUserTemplate")) &&
+    Array.isArray(object.object) &&
+    object.object.some(
+      (ob) =>
+        typeof ob === "object" &&
+        !Array.isArray(ob) &&
+        ob &&
+        ob.class &&
+        typeof ob.class === "object" &&
+        ob.class &&
+        !Array.isArray(ob.class) &&
+        ob.class.name === "XWiki.XWikiUsers"
+    )
+  )
 }

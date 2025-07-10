@@ -47,6 +47,7 @@ model XWikiPage {
   object            Json
   content           String
   attachment        Attachment[]
+  exclusion         Exclusion?
 }
 
 model Attachment {
@@ -61,4 +62,11 @@ model Attachment {
   pagePath String
 
   page XWikiPage @relation(fields: [pagePath], references: [path])
+}
+
+model Exclusion {
+  reason String
+  path   String @id
+
+  page XWikiPage @relation(fields: [path], references: [path])
 }
