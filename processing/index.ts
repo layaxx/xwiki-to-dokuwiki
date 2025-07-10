@@ -18,6 +18,7 @@ function handleAndLinkUserPageAttachment(
   attachment: Attachment,
   syntax: "xwiki/1.0" | "xwiki/2.0"
 ) {
+  const oldFilename = attachment.filename
   attachment.filename =
     crypto.randomUUID().slice(0, 8) + "-" + attachment.filename.toLowerCase()
   let attachmentPath = join(
@@ -35,7 +36,13 @@ function handleAndLinkUserPageAttachment(
         "|file=" +
         attachment.filename +
         "}\n\n"
-  return { attachmentPath, content: attachment.content, link }
+  return {
+    attachmentPath,
+    content: attachment.content,
+    link,
+    oldFilename,
+    newFilename: attachment.filename,
+  }
 }
 
 function transformUserPageDB(doc: XWikiPage) {
@@ -167,6 +174,10 @@ async function main() {
           const linkData = data.attachment.map((attachment) =>
             handleAndLinkUserPageAttachment(attachment, syntax)
           )
+
+          for (const { oldFilename, newFilename } of linkData) {
+            text = text.replace(oldFilename, newFilename)
+          }
 
           await Promise.all(
             linkData.map(async (link) => {

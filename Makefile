@@ -8,7 +8,11 @@ process:
 	tsx processing/index.ts 2> ./logs/err.out 
 	rm -rf out_/ 
 	
+render: 
+	@echo "Rendering XWiki pages..."
+	./rendering/acme/gradlew -p ./rendering/acme runMain
 
+full: process render copy
 
 x_old_build:
 	rm -rf ./out/ && \
