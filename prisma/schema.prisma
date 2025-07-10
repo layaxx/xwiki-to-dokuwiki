@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Tree {
+  id     Int    @id @default(autoincrement())
+  title  String
+  name   String
+  parent String
+  web    String
+  path   Json
+}
+
+model XWikiPage {
+  path              String       @id
+  web               String
+  name              String
+  language          String
+  defaultLanguage   String
+  translation       Int
+  parent            String
+  creator           String
+  author            String
+  customClass       String
+  contentAuthor     String
+  creationDate      BigInt
+  date              BigInt
+  contentUpdateDate BigInt
+  version           Decimal
+  title             String
+  template          String
+  defaultTemplate   String
+  validationScript  String
+  comment           String
+  minorEdit         Boolean
+  syntaxId          String
+  hidden            Boolean
+  object            Json
+  content           String
+  attachment        Attachment[]
+}
+
+model Attachment {
+  id       Int     @id @default(autoincrement())
+  filename String
+  filesize Int
+  author   String
+  date     BigInt
+  version  Decimal
+  comment  String
+  content  String
+  pagePath String
+
+  page XWikiPage @relation(fields: [pagePath], references: [path])
+}

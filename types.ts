@@ -38,6 +38,7 @@ export type Data = {
     property: Array<Record<string, string | number>>
   }>
   content: string
+  class?: unknown
   attachment?: Attachment | Attachment[]
 }
 

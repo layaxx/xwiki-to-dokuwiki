@@ -10,3 +10,6 @@ logs
 tree.json
 resolvedTree.json
 rendering
+prisma/*.db
+prisma/migrations
+generated/prisma

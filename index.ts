@@ -1,6 +1,4 @@
-import { XMLParser } from "fast-xml-parser"
 import fs, { readFileSync, writeFileSync } from "fs"
-import path from "path"
 import { isUserPage, transformUserPage } from "./userpage"
 import { transformContentPage } from "./contentpage"
 import type { Data, TreeData } from "./types"

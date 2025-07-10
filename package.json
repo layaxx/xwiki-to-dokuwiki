@@ -5,11 +5,13 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@prisma/client": "^6.11.1",
     "fast-xml-parser": "^4.4.0",
+    "prisma": "^6.11.1",
     "tsx": "^4.16.2"
   },
   "devDependencies": {
     "@types/node": "^20.14.10"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "npm@11.3.0+sha512.96eb611483f49c55f7fa74df61b588de9e213f80a256728e6798ddc67176c7b07e4a1cfc7de8922422cbce02543714367037536955221fa451b0c4fefaf20c66"
 }
