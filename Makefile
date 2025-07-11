@@ -3,7 +3,7 @@ safety:
 
 process:
 	@echo "Deleting out/"
-	rm -rf ./out/ && mkdir -p out/users && mkdir out/content && mkdir out/_links && mkdir -p out/_attach/users
+	rm -rf ./out/ && mkdir -p out/users && mkdir out/content && mkdir out/_links && mkdir -p out/_attach/users && mkdir out/_attach/content
 	@echo "Processing XWiki pages..."
 	tsx processing/index.ts 2> ./logs/err.out 
 	rm -rf out_/ 

@@ -13,6 +13,30 @@ import { XWikiPage } from "./generated/prisma"
 
 const parser = new XMLParser()
 
+export function convertToUTF8(str: string): string {
+  // Common mojibake patterns when UTF-8 is misread as Latin-1
+  const likelyMojibakePatterns = [
+    /Ã./, // Ã¼, Ã¶, etc.
+    /Â./, // Â for some quotes/currency
+    /â€/, // Smart quotes: â€œ, â€˜, etc.
+    /â€“/, // en dash
+    /â€”/, // em dash
+    /â€¦/, // ellipsis
+  ]
+
+  const looksLikeMojibake = likelyMojibakePatterns.some((regex) =>
+    regex.test(str)
+  )
+
+  if (looksLikeMojibake) {
+    const buf = Buffer.from(str, "latin1")
+    const decoded = buf.toString("utf8")
+
+    return decoded
+  }
+
+  return str // No change needed
+}
 export function getNewPath(data: Data, resolvedTree: TreeData): string {
   let relPath =
     (

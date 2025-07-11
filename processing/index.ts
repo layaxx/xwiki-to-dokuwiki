@@ -1,7 +1,7 @@
 import { handleContentPages } from "./content_pages"
 import { handleUserPages } from "./user_pages"
 
-const skipUserPages = true
+const skipUserPages = false
 const skipContentPages = false
 
 async function main() {

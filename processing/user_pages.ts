@@ -1,6 +1,6 @@
 import { writeFile } from "fs/promises"
 import { Attachment, PrismaClient, XWikiPage } from "../generated/prisma"
-import { addTopLevelHeading, isUserPageDB } from "../util"
+import { addTopLevelHeading, convertToUTF8, isUserPageDB } from "../util"
 import { join } from "path"
 import crypto from "crypto"
 
@@ -103,7 +103,7 @@ function transformUserPageDB(doc: XWikiPage) {
     )}
 ${printWarning(syntax)}
 
-${doc.content.replace(/\\/g, "\\\\")}
+${convertToUTF8(doc.content).replace(/\\/g, "\\\\")}
 
 `
   }
