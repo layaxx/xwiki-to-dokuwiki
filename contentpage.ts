@@ -1,6 +1,6 @@
 import fs from "fs"
 import { dirname, join } from "path"
-import { addTopLevelHeading, convertLink, getNewPath } from "./util"
+import { addTopLevelHeading, getNewPath } from "./util"
 import type { Attachment, Data } from "./types"
 
 function parseContent(data: Data, newLink: string) {

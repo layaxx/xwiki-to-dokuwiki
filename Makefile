@@ -21,10 +21,10 @@ x_old_build:
 	cp -r out/ out_
 
 copy:
-	sudo rm -rf ../dokuwiki_data/data/pages/xwiki/ && \
-	sudo rm -rf ../dokuwiki_data/data/media/xwiki/ && \
-	sudo mkdir ../dokuwiki_data/data/pages/xwiki && \
-	sudo cp -r out/users ../dokuwiki_data/data/pages/xwiki && \
-	sudo cp -r out/content ../dokuwiki_data/data/pages/xwiki && \
-	sudo cp -r out/_attach/ ../dokuwiki_data/data/media/xwiki && \
-	sudo chown -R 1001 ../dokuwiki_data/data/pages/xwiki 
+	sudo rm -rf ../dokuwiki_data/data/pages/archiv/ && \
+	sudo rm -rf ../dokuwiki_data/data/media/archiv/ && \
+	sudo mkdir ../dokuwiki_data/data/pages/archiv && \
+	sudo cp -r out/users ../dokuwiki_data/data/pages/archiv && \
+	sudo cp -r out/content/* ../dokuwiki_data/data/pages/archiv && \
+	sudo cp -r out/_attach/ ../dokuwiki_data/data/media/archiv && \
+	sudo chown -R 1001 ../dokuwiki_data/data/pages/archiv 

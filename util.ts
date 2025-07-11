@@ -65,14 +65,14 @@ export function getNewPath(data: Data, resolvedTree: TreeData): string {
   const oldLink = data.web + "." + data.name
 
   if (relPath.startsWith("/")) relPath = relPath.slice(1)
-  const newLink = "xwiki:" + relPath.replace(/\//g, ":")
+  const newLink = "archiv:" + relPath.replace(/\//g, ":")
   writeFileSync(`./out/links/${oldLink}.txt`, newLink)
 
   return path
 }
 
 export function convertLink(link: string) {
-  return link.replace(/.?out\//g, "xwiki:").replace(/\//g, ":")
+  return link.replace(/.?out\//g, "archiv:").replace(/\//g, ":")
 }
 
 export function addTopLevelHeading(

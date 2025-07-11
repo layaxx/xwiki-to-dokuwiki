@@ -194,7 +194,7 @@ export async function handleUserPages() {
 
       const oldLink = data.web + "." + data.name
 
-      const newLink = "xwiki:users:" + fileName
+      const newLink = "archiv:users:" + fileName
       await writeFile(`./out/_links/${oldLink}.txt`, newLink)
 
       return { fileName, syntax }

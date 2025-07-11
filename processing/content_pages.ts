@@ -2,7 +2,7 @@ import { dirname, join } from "path"
 import { Attachment, PrismaClient, XWikiPage } from "../generated/prisma"
 import { addTopLevelHeading, convertToUTF8, isUserPageDB } from "../util"
 import { mkdir, writeFile } from "fs/promises"
-import { write } from "fs"
+import crypto from "crypto"
 
 const prisma = new PrismaClient()
 
@@ -19,7 +19,7 @@ function handleAndLinkContentPageAttachment(
   let attachmentPath = join(
     "out",
     "_attach",
-    path.replace("out/", ""),
+    path.replace("out/content/", ""),
     attachment.filename
   ).toLowerCase()
 
@@ -56,7 +56,7 @@ async function getNewPath(data: XWikiPage): Promise<string> {
     return ""
   }
 
-  let relPath = tree.path.join("/").replace(/_/g, "/") + "/" + data.name
+  let relPath = tree.path.join("/") + "/" + data.name
 
   relPath = relPath.toLowerCase().replace(/ /g, "_")
 
@@ -145,7 +145,7 @@ async function paginatedContentPages(
       let relPath = path.replace("./out/content/", "").replace(/\.txt$/, "")
 
       if (relPath.startsWith("/")) relPath = relPath.slice(1)
-      const newLink = "xwiki:content:" + relPath.replace(/\//g, ":")
+      const newLink = "archiv:" + relPath.replace(/\//g, ":")
       writeFile(`./out/_links/${oldLink}.txt`, newLink)
 
       return { path, syntax }
