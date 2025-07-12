@@ -6,7 +6,7 @@ This was written to aid the migration of the knowledge base from XWiki to DokuWi
 
 This assumes that you have a folder called `backup` on repo root level, containing an XML Dump of the XWiki pages.
 
-`rendering/acme` Must contain the Java project for converting the XWiki syntax to DokuWiki syntax.
+`rendering/acme` Must contain the Java project for converting the XWiki syntax to DokuWiki syntax: https://github.com/layaxx/xwiki-to-dokuwiki-rendering.
 
 Furthermore, the `make copy` step assumes that you have a folder called `../dokuwiki_data` one level up from the repo root with the data of an DokuWiki install (e.g. from Docker). This is not needed for the actual processing however, just for validation.
 
