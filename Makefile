@@ -1,6 +1,12 @@
 safety:
 	echo "This is a safety check. You must choose a target"
 
+preprocess:
+	tsx preprocess/index.ts 2> ./logs/err-preprocessing.out
+	tsx preprocess/exclusions.ts 2> ./logs/err-exclusions.out
+	tsx preprocess/tree.ts 2> ./logs/err-tree.out
+
+
 process:
 	@echo "Deleting out/"
 	rm -rf ./out/ && mkdir -p out/users && mkdir out/content && mkdir out/_links && mkdir -p out/_attach/users && mkdir out/_attach/content

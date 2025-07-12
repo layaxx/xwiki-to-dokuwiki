@@ -57,8 +57,6 @@ function calculateTree(unresolved: TreeData): TreeData {
 }
 
 async function main() {
-  const tree: TreeData = []
-
   const data = await prisma.xWikiPage.findMany({
     select: { parent: true, title: true, name: true, web: true },
   })
